@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "email": "a@test.com",
+      "password": "$2a$10$CdKXGu6GW59bEetuKfilwe5OYIsyTGVR6rfh6GG0l6c6XfYKrfxlu",
+      "id": 1
+    },
+    {
+      "email": "a@rest.acs",
+      "password": "$2a$10$LvBvZDNkfFhhuQ.GtYeC0uIV/mrDJ6QG7WjOiE0SWaqnC5oYRZhgK",
+      "id": 2
+    },
+    {
+      "email": "asd@asdc.sd",
+      "password": "$2a$10$1qmhDkR6zefsB8IAmu/II.N6Oan./CnhJFtXMtNYrVzkdbrjZKaWe",
+      "id": 3
+    },
+    {
+      "email": "asd@asd.ghj",
+      "password": "$2a$10$JY8o.8XACYRvvqLit91sCuv9vaXYtUVXx1ewQaBAEpz7/CEXlnkPO",
+      "id": 4
+    },
+    {
+      "email": "test@test.test",
+      "password": "$2a$10$3kqyd3Fs7Sb5XzqLJjadLeCe46EUi4UKveg3F1ETQql8hBeAFuovK",
+      "id": 5
+    }
+  ],
+  "ads": [
+    {
+      "location": {
+        "lat": 35.67974904826333,
+        "lng": 51.389225640656655
+      },
+      "mobile": "09321548759",
+      "address": "semantic address",
+      "description": "agmaw;jeg'ajwg'jgl;j  ja;lsjdm ",
+      "id": 5
+    },
+    {
+      "location": {
+        "lat": 35.67821520701975,
+        "lng": 51.37773513793946
+      },
+      "mobile": "1231551",
+      "address": "edited address",
+      "description": "awfawfawf",
+      "id": 6
+    },
+    {
+      "location": {
+        "lat": 35.677796881563715,
+        "lng": 51.36503100382752
+      },
+      "mobile": "1231551",
+      "address": "afwa",
+      "description": "awfawfawf",
+      "id": 7
+    },
+    {
+      "location": {
+        "lat": 35.67974904826333,
+        "lng": 51.389225640656655
+      },
+      "mobile": "09321548759",
+      "address": "o asdlklgaj'",
+      "description": "agmaw;jeg'ajwg'jgl;j  ja;lsjdm ",
+      "id": 4
+    },
+    {
+      "location": {
+        "lat": 35.67974904826333,
+        "lng": 51.389225640656655
+      },
+      "mobile": "09321548759",
+      "address": "o asdlklgaj'",
+      "description": "agmaw;jeg'ajwg'jgl;j  ja;lsjdm ",
+      "id": 5
+    },
+    {
+      "location": {
+        "lat": 35.677796881563715,
+        "lng": 51.36503100382752
+      },
+      "mobile": "1231551",
+      "address": "afwa",
+      "description": "awfawfawf",
+      "id": 6
+    },
+    {
+      "location": {
+        "lat": 35.677796881563715,
+        "lng": 51.36503100382752
+      },
+      "mobile": "1231551",
+      "address": "afwa",
+      "description": "awfawfawf",
+      "id": 7
+    },
+    {
+      "location": {
+        "lat": 35.68469897115985,
+        "lng": 51.370611190795906
+      },
+      "mobile": "123",
+      "address": "new address",
+      "description": "new desc",
+      "id": 8
+    },
+    {
+      "location": {
+        "lat": 35.704425893824244,
+        "lng": 51.35155156076403
+      },
+      "mobile": "09365478965",
+      "address": "آدرس تست",
+      "description": "توضیح تست",
+      "id": 9
+    }
+  ]
+}

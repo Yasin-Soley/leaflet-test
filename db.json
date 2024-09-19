@@ -29,16 +29,6 @@
   "ads": [
     {
       "location": {
-        "lat": 35.67974904826333,
-        "lng": 51.389225640656655
-      },
-      "mobile": "09321548759",
-      "address": "semantic address",
-      "description": "agmaw;jeg'ajwg'jgl;j  ja;lsjdm ",
-      "id": 5
-    },
-    {
-      "location": {
         "lat": 35.67821520701975,
         "lng": 51.37773513793946
       },
@@ -46,56 +36,6 @@
       "address": "edited address",
       "description": "awfawfawf",
       "id": 6
-    },
-    {
-      "location": {
-        "lat": 35.677796881563715,
-        "lng": 51.36503100382752
-      },
-      "mobile": "1231551",
-      "address": "afwa",
-      "description": "awfawfawf",
-      "id": 7
-    },
-    {
-      "location": {
-        "lat": 35.67974904826333,
-        "lng": 51.389225640656655
-      },
-      "mobile": "09321548759",
-      "address": "o asdlklgaj'",
-      "description": "agmaw;jeg'ajwg'jgl;j  ja;lsjdm ",
-      "id": 4
-    },
-    {
-      "location": {
-        "lat": 35.67974904826333,
-        "lng": 51.389225640656655
-      },
-      "mobile": "09321548759",
-      "address": "o asdlklgaj'",
-      "description": "agmaw;jeg'ajwg'jgl;j  ja;lsjdm ",
-      "id": 5
-    },
-    {
-      "location": {
-        "lat": 35.677796881563715,
-        "lng": 51.36503100382752
-      },
-      "mobile": "1231551",
-      "address": "afwa",
-      "description": "awfawfawf",
-      "id": 6
-    },
-    {
-      "location": {
-        "lat": 35.677796881563715,
-        "lng": 51.36503100382752
-      },
-      "mobile": "1231551",
-      "address": "afwa",
-      "description": "awfawfawf",
-      "id": 7
     },
     {
       "location": {
@@ -116,6 +56,16 @@
       "address": "آدرس تست",
       "description": "توضیح تست",
       "id": 9
+    },
+    {
+      "location": {
+        "lat": 35.700355437709156,
+        "lng": 51.37776841588574
+      },
+      "mobile": "09323232",
+      "address": "آدرس تغییر داده شده",
+      "description": "332222222222",
+      "id": 10
     }
   ]
 }

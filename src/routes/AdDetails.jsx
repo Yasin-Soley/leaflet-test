@@ -11,6 +11,7 @@ import { useGetSingleAd } from '../hooks/useGetSingleAd'
 import { deleteAd, editAd } from '../lib/ads'
 import DeleteAD from '../modals/delete-ad'
 import EditAD from '../modals/edit-ad'
+import { useGetAds } from '../hooks/useGetAds'
 
 const icon = new L.Icon({
     iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
@@ -38,12 +39,15 @@ export default function AdDetails() {
         await deleteAd({ id: adId, onSuccess: () => navigate('/') })
     }
 
+    const { refetch: refetchAdsList } = useGetAds()
+
     const handleEdit = async (data) => {
         await editAd({
             id: adId,
             data,
             onSuccess: () => {
                 refetch()
+                refetchAdsList()
                 navigate(`/ads/${adId}`)
             },
         })

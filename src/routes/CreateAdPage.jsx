@@ -6,6 +6,7 @@ import L from 'leaflet'
 import { Button, Input, Textarea } from '@nextui-org/react'
 import { createAd } from '../lib/ads'
 import { useNavigate } from 'react-router-dom'
+import { useGetAds } from '../hooks/useGetAds'
 
 const icon = new L.Icon({
     iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
@@ -34,6 +35,8 @@ export default function CreateAdPage() {
         setLocation(latlng)
     }
 
+    const { refetch: refetchAdsList } = useGetAds()
+
     const handleSubmit = async (e) => {
         e.preventDefault()
         if (location && mobile && address && description) {
@@ -49,6 +52,7 @@ export default function CreateAdPage() {
             await createAd({
                 data: adData,
                 onSuccess: () => {
+                    refetchAdsList()
                     navigate('/')
                 },
             })

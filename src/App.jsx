@@ -19,7 +19,7 @@ export default function App() {
             children: [
                 {
                     index: true,
-                    element: <HomePage />,
+                    element: token ? <HomePage /> : <LoginPage />,
                 },
                 {
                     path: '/login',

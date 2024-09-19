@@ -5,7 +5,6 @@ import {
     cookies,
     persistData,
 } from '../common/utils/cookie-services'
-import { useNavigate } from 'react-router-dom'
 
 const MainContext = createContext({
     main: {

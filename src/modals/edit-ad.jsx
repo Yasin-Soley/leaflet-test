@@ -39,7 +39,7 @@ export default function EditAD({ onAction, data }) {
         setLocation(latlng)
     }
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async () => {
         if (location && mobile && address && description) {
             const newAdData = {
                 location,
